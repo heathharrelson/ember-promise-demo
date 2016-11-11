@@ -1,0 +1,19 @@
+<div class="container">
+  <h1>Ember Promise Demo</h1>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h2 class="panel-title">{{#link-to 'index'}}Application Route{{/link-to}}</h2>
+    </div>
+    <div class="panel-body">
+      <p>Model: {{model.name}}</p>
+
+      <ul>
+        <li>link to synchronous route</li>
+        <li>link to async route</li>
+      </ul>
+
+      {{outlet}}
+    </div>
+  </div>
+</div>
