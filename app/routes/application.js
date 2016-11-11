@@ -13,7 +13,7 @@ export default Ember.Route.extend({
    */
   model() {
     Ember.Logger.info(`${this.get('routeName')} model hook`);
-    return Ember.Object.create({ name: `${this.get('routeName')} model`});
+    return Ember.Object.create({ name: this.get('routeName') });
   },
 
   /**

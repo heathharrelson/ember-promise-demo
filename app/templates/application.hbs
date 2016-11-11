@@ -3,10 +3,10 @@
 
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h2 class="panel-title">{{#link-to 'index'}}Application Route{{/link-to}}</h2>
+      <div class="h2 panel-title">{{#link-to 'index'}}{{model.name}} route{{/link-to}}</div>
     </div>
     <div class="panel-body">
-      <p>Model: {{model.name}}</p>
+      <p>{{model.name}} template content</p>
 
       <ul>
         <li>{{#link-to 'sync.inner1.inner2'}}synchronous nested route{{/link-to}}</li>
