@@ -9,8 +9,8 @@
       <p>Model: {{model.name}}</p>
 
       <ul>
-        <li>link to synchronous route</li>
-        <li>link to async route</li>
+        <li>{{#link-to 'sync.inner1.inner2'}}synchronous nested route{{/link-to}}</li>
+        <li>{{#link-to 'async.inner1.inner2'}}asychronous nested route{{/link-to}}</li>
       </ul>
 
       {{outlet}}

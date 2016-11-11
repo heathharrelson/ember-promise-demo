@@ -7,6 +7,16 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('sync', function() {
+    this.route('inner1', function() {
+      this.route('inner2');
+    });
+  });
+  this.route('async', function() {
+    this.route('inner1', function() {
+      this.route('inner2');
+    });
+  });
 });
 
 export default Router;
