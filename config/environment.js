@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'promise-demo',
+    modulePrefix: 'ember-promise-demo',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',

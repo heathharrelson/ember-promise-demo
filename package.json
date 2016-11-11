@@ -1,7 +1,7 @@
 {
-  "name": "promise-demo",
-  "version": "0.0.0",
-  "description": "Small description for promise-demo goes here",
+  "name": "ember-promise-demo",
+  "version": "0.0.1",
+  "description": "An application demonstrating the Ember routing system's handling of promises.",
   "private": true,
   "directories": {
     "doc": "doc",
