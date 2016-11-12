@@ -17,6 +17,7 @@ Router.map(function() {
       this.route('inner2');
     });
   });
+  this.route('fizzbuzz-fail');
 });
 
 export default Router;
