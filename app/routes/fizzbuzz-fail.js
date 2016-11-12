@@ -25,7 +25,7 @@ export default Ember.Route.extend({
    * @override
    */
   model() {
-    return delayedValue(this.getRandomIntInclusive(1, 15)).then(value => {
+    return delayedValue(this.getRandomIntInclusive(1, 15), 500).then(value => {
       let errorName = '';
       errorName = value % 3 === 0 ? errorName += 'Fizz' : errorName;
       errorName = value % 5 === 0 ? errorName += 'Buzz' : errorName;
